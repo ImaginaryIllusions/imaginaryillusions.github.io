@@ -57,6 +57,9 @@ nav {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
 }
+.modal-body h3 {
+    text-align: center;
+}
 .card-description {
     font-size: 0.9em;
 }
@@ -65,4 +68,7 @@ hr {
     border-width: 0;
     color: #b1b1b1;
     background-color: #b1b1b1;
+}
+.staff-card {
+    text-align: center;
 }
