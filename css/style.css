@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: #001E40;
+}
+.container {
+    max-width: 1440px;
+}
+.title-banner img {
+    object-fit: fill;
+    -webkit-mask-image:-webkit-linear-gradient(top, rgba(0,0,0,0) 1%, rgba(0,0,0,0.8) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+nav {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+#navbar {
+    transition: background-color 800ms;
+    transition: width 800ms;
+    width: 100%;
+}
+.navbar-bg {
+    background-color: rgba(0,0,0,0.5);
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + #about-us {
+    padding-top: 62px;
+  }
+.nav-item {
+    border-bottom: 2px solid transparent;
+}
+.nav-item:hover {
+    border-bottom: 2px solid #a1a1a1;
+}
+.links {
+    font-family: 'Montserrat', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+.links i {
+    font-size: 6em;
+}
+.footer {
+    background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+    color: #f2f2f2;
+}
+.modal-header {
+    font-family: 'Oswald', sans-serif;
+}
+.modal-header .close span {
+    color: #f2f2f2;    
+}
+.modal-body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.card-description {
+    font-size: 0.9em;
+}
+hr {
+    height: 1px;
+    border-width: 0;
+    color: #b1b1b1;
+    background-color: #b1b1b1;
+}
