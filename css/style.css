@@ -42,7 +42,7 @@ nav {
     font-size: 6em;
 }
 .footer {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.95);
 }
 .modal-content {
     color: #f2f2f2;
@@ -71,4 +71,58 @@ hr {
 }
 .staff-card {
     text-align: center;
+}
+#tabs li a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+#tabs li a.active {
+    color: #303030;
+}
+.banlist-link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.banlist-link:hover {
+    color: #D2D2D2;
+    text-decoration: none;
+}
+.table-ccf-unique {
+    font-weight: bold;
+}
+.table-normal-monster {
+    background-color: #FFFF99;
+    color: #000000;
+}
+.table-effect-monster {
+    background-color: #FFC000;
+    color: #000000;
+}
+.table-fusion-monster {
+    background-color: #CF9FFF;
+    color: #000000;
+}
+.table-synchro-monster {
+    background-color: #F2F2F2;
+    color: #000000;
+} 
+.table-xyz-monster {
+    background-color: #404040;
+    color: #FAFAFA;
+}
+.table-ritual-monster {
+    background-color: #538DD5;
+    color: #000000;
+}
+.table-link-monster {
+    background-color: #00589A;
+    color: #FAFAFA;
+}
+.table-spell {
+    background-color: #1D9E74;
+    color: #000000;
+}
+.table-trap {
+    background-color: #BC5A84;
+    color: #000000;
 }
